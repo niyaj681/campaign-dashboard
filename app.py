@@ -1,5 +1,5 @@
 import streamlit as st
-import pandas as 
+import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
@@ -44,3 +44,4 @@ fig, ax = plt.subplots()
 sns.lineplot(data=df, x='Campaign ID', y='ROI', marker='o', ax=ax)
 plt.xticks(rotation=45)
 st.pyplot(fig)
+
